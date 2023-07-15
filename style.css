@@ -44,7 +44,15 @@
   margin-left: 100px; 
   
 }
-.row{
+ #searchInput-box{     /*for input field */
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-weight: 14px;
+}
+/* .row{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -52,14 +60,19 @@
   border-radius: 30px;
   padding-left: 20px;
   margin-bottom: 25px;
-}
-input{     /*for input field */
+} */
+#input-box {     /*for input field */
   flex: 1;
+  width:70% ;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
   border: none;
   outline: none;
-  background: transparent;
   padding: 10px;
   font-weight: 14px;
+ 
 }
  #addTask-button{
   border: none;

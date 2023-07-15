@@ -12,7 +12,7 @@ function addTask() {
     listContainer.appendChild(li)
     let span = document.createElement('span')
     span.innerHTML =
-      '\u00d7' /*to add content in span ,u00d7 is for make cross icon */
+      '\u{1F5D1}' /*to add content in span ,u00d7 is for make cross icon */
     li.appendChild(span) /*to display the span content */
   }
   inputBox.value = ''
